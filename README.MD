@@ -30,3 +30,4 @@ python3 main.py
 
 1) Go to https://github.com/stoir/passel_public/blob/main/HostingViaFlyIo.pdf
 2) Follow all the steps. Instead of performing step 3, 4 and 5 like it says in the pdf, follow steps 1 to 7 from the section above.
+3) Continue from step 6
