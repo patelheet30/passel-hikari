@@ -1,11 +1,11 @@
 # PASSEL-HIKARI
 
-This is a hikari port of the passel bot. I don't really like discord.py so this is
+This is a hikari port of the [passel bot](https://github.com/stoir/passel_public). I don't really like discord.py so this is
 why this port exists.
 
 ## Run Bot Locally (Your own laptop)
 
-1) <u>**Download**</u> the repo from above.
+1) **Download** the repo from above.
 2) Unzip the file and open up `main.py`
 3) Insert your bot token between the speech marks in`TOKEN=""`
 4) Replace INSERT_HERE with the server id the bot is going to be in as an integer(whole number) in `default_enabled_guilds=INSERT_HERE`
