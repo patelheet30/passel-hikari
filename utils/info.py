@@ -3,7 +3,7 @@
  # Mode 2 = Once the channel reaches 49 pins, the 1st pin of the channel is unpinned
  #          and sent to the pin channel allowing for newer pins to be filled into
  #          the pins tab
-mode: int = SET_TO_1_OR_FALSE
+mode: int = SET_TO_1_OR_2
 
 # Choose if all pins should be sent to the pins channel instead of when pins are full for channel
 sendall: bool = SET_TO_TRUE_OR_FALSE
