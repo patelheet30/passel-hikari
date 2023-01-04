@@ -11,7 +11,7 @@ why this port exists.
 4) Replace INSERT_HERE with the server id the bot is going to be in as an integer(whole number) in `default_enabled_guilds=INSERT_HERE`
 5) Open up terminal/command prompt and navigate to folder where `main.py` is.
 6) Run `pip install -r requirements.txt` in terminal/command prompt.
-7) Open up `info.py` and do what the file tells you to do
+7) Open up `utils/info.py` and do what the file tells you to do
 8) Now run this if you're on Windows:
 
 ```bash
