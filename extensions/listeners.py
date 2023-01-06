@@ -1,10 +1,12 @@
 import hikari
 import lightbulb
 import random
-from utils.info import sendall, mode, blacklist_ids, pin_message_id
+from utils.info import sendall, mode, pin_message_id
+from utils.blfuncs import get_ids
 
 pin_event = lightbulb.Plugin("pin_event", "Contains listeners for pinning events")
 
+blacklist_ids = get_ids()
 
 if sendall:
     @pin_event.listener(hikari.MessageUpdateEvent)

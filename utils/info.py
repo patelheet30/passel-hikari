@@ -10,6 +10,3 @@ sendall: bool = SET_TO_TRUE_OR_FALSE
 
 # Set the pin_message_id variable's value to the ID of the channel where you want to send the pins
 pin_message_id: int = SET_VALUE_HERE  # Example: 1059366200712364083
-
-# Add the IDs of channels you want to blacklist from being sent to pin channel
-blacklist_ids: list = [ADD_IDS_IN_STRING_FORM_HERE]  # Example: ["1059367790554927114", "1059367810981167154"]
