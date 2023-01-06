@@ -1,7 +1,8 @@
 import hikari
 import lightbulb
-from extensions.listeners import mode, sendall, pin_message_id, blacklist_ids
 import random
+from utils.info import mode, sendall, pin_message_id
+from utils.blfuncs import get_ids
 
 commands = lightbulb.Plugin("commands", "List of commands for the bot")
 
@@ -10,6 +11,7 @@ commands = lightbulb.Plugin("commands", "List of commands for the bot")
 @lightbulb.command("settings", "View the settings of the bot")
 @lightbulb.implements(lightbulb.SlashCommand)
 async def on_settings_view(ctx: lightbulb.SlashContext) -> None:
+    blacklist_ids = get_ids()
     edited_blacklist = [f"<#{i}>" for i in blacklist_ids]
 
     embed = hikari.Embed(
